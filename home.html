@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTECTS</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="tailwind.min.css">
+</head>
+
+<body class="bg-gray-400">
+    <div class="max-w-2xl bg-white mx-auto rounded-lg mt-10 py-16 shadow-xl">
+        <h1 class="text-center text-3xl font-semibold font-mono">Phone Book</h1>
+        <div class="flex justify-center gap-3 pt-7 ">
+            <input type="text" placeholder="Enter Your Name .."
+                class="inp1 shadow px-4 rounded outline-none ring-1 ring-yellow-600">
+            <input type="text" placeholder="Enter Your Phone .."
+                class="inp2 shadow px-4 rounded outline-none ring-1 ring-yellow-600">
+            <button class="button text-white bg-yellow-600 font-semibold py-1 px-4 rounded-lg shadow">ADD</button>
+        </div>
+        <hr class="mx-32 mt-7 border-opacity-40 border-yellow-500">
+        <div class="my-5 flex justify-end pr-20">
+            <input type="text" id='input' class="shadow px-4 py-1 rounded outline-none ring-1 ring-yellow-600  "
+                placeholder="Search..">
+        </div>
+        <div class="mx-4 flex justify-center">
+            <table class="border border-gray-600 w-5/6 ">
+                <thead>
+                    <tr>
+                        <th class="border border-gray-600 w-1/5 text-yellow-600 ">Id</th>
+                        <th class="text-left pl-16 border border-gray-600 w-2/5 text-yellow-600 ">Name</th>
+                        <th class="text-left border border-gray-600 w-2/5  pl-16 text-yellow-600 ">Phone</th>
+                    </tr>
+                </thead>
+                <tbody class="text-center bg-gray-100">
+
+                </tbody>
+            </table>
+        </div>
+
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
